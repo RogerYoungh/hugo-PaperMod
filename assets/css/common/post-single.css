@@ -90,6 +90,8 @@
 .post-content p,
 .post-content figure,
 .post-content ul {
+    line-height: 2em;
+    margin-top: var(--content-gap);
     margin-bottom: var(--content-gap);
 }
 
@@ -199,17 +201,16 @@
 
 .post-content code {
     margin: auto 4px;
-    padding: 4px 6px;
-    font-size: 0.78em;
+    font-size: 0.96em;
     line-height: 1.5;
-    background: var(--code-bg);
+    color: #f14668;
     border-radius: 2px;
 }
 
 .post-content pre code {
     display: block;
     margin: auto 0;
-    padding: 10px;
+    padding: 15px;
     color: rgba(255, 255, 255, 0.8);
     background: 0 0;
     border-radius: 0;
@@ -219,8 +220,10 @@
 
 .post-content blockquote {
     margin: 20px 0;
-    padding: 0 14px;
-    border-inline-start: 3px solid var(--primary);
+    padding: 5px 14px;
+    border-inline-start: 5px solid var(--primary);
+    background: #eee;
+    
 }
 
 .post-content hr {
