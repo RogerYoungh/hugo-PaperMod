@@ -22,28 +22,28 @@
 .hljs-number,
 .hljs-params,
 .hljs-type {
-    color: #e7ce56;
+    color: #ff9900;
 }
 
 .hljs-attribute {
-    color: #ee7c2b;
+    color: #FF3300;
 }
 
 .hljs-addition,
 .hljs-bullet,
 .hljs-string,
 .hljs-symbol {
-    color: #4fb4d7;
+    color: #0099ff;
 }
 
 .hljs-section,
 .hljs-title {
-    color: #78bb65;
+    color: #00CC00;
 }
 
 .hljs-keyword,
 .hljs-selector-tag {
-    color: #b45ea4;
+    color: #CC00CC;
 }
 
 .hljs {
