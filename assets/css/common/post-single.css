@@ -69,7 +69,7 @@
     font-size: 12px;
 }
 
-.post-content a {
+.post-content a, .post-footer a {
     color: var(--link);
 }
 
@@ -228,7 +228,7 @@
     word-break: break-all;
 }
 
-.post-content blockquote {
+.post-content blockquote, .post-footer blockquote{
     margin: 20px 0;
     padding: 5px 14px;
     border-inline-start: 5px solid var(--primary);
