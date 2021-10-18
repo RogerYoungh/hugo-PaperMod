@@ -223,7 +223,7 @@
     color: var(--primary);
     background: var(--hljs-bg);
     border-radius: 0;
-    border: 1px solid var(--primary);
+    border: 2px solid var(--primary);
     overflow-x: auto;
     word-break: break-all;
 }

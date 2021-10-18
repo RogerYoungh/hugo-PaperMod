@@ -1,7 +1,30 @@
-.hljs-comment,
-.hljs-quote {
-    color: #b6b18b;
+.hljs-meta,
+.hljs-keyword,
+.o {
+    color: #ea4a5a;
 }
+
+.hljs-function > .hljs-title,
+.hljs-built_in {
+    color: #8a63d2;
+}
+
+.hljs-function > .hljs-params {
+    color: #d15704;
+}
+
+.hljs-number,
+.s,
+.hljs-string {
+    color: #2188ff;
+}
+
+.hljs-quote {
+    color: #959da5;
+}
+
+
+/*.hljs-comment,
 
 .hljs-deletion,
 .hljs-name,
@@ -11,7 +34,7 @@
 .hljs-tag,
 .hljs-template-variable,
 .hljs-variable {
-    color: #eb3c54;
+    color: #cf222e;
 }
 
 .hljs-built_in,
@@ -21,10 +44,7 @@
 .hljs-meta,
 .hljs-number,
 .hljs-params,
-.hljs-type {
-    color: #ff9900;
-}
-
+.hljs-type,
 .hljs-attribute {
     color: #FF3300;
 }
@@ -38,12 +58,12 @@
 
 .hljs-section,
 .hljs-title {
-    color: #00aa00;
+    color: #8250df;
 }
 
 .hljs-keyword,
 .hljs-selector-tag {
-    color: #cc00cc;
+    color: #cf222e;
 }
 
 .hljs {
@@ -60,4 +80,4 @@
 
 .hljs-strong {
     font-weight: 700;
-}
+}*/
