@@ -1,4 +1,10 @@
 {{- /* theme-toggle is enabled */}}
+<script>
+    if (localStorage.getItem("pref-font") === "serif") {
+        document.body.classList.add('serif');
+    }
+
+</script>
 {{- if (not .Site.Params.disableThemeToggle) }}
 {{- /* theme is light */}}
 {{- if (eq .Site.Params.defaultTheme "light") }}
@@ -113,6 +119,7 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
+                <button id="font-toggle" accesskey="t" title="(Alt + T)">A</button>
                 {{- end }}
 
                 {{- $lang := .Lang}}

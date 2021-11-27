@@ -33,6 +33,10 @@
     --border: #333;
 }
 
+.serif {
+    font-family: serif;
+}
+
 .list {
     background: var(--theme);
 }

@@ -78,6 +78,15 @@
             localStorage.setItem("pref-theme", 'dark');
         }
     })
+    document.getElementById("font-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("serif")) {
+            document.body.classList.remove('serif');
+            localStorage.setItem("pref-font", 'sans');
+        } else {
+            document.body.classList.add('serif');
+            localStorage.setItem("pref-font", 'serif');
+        }
+    })
 
 </script>
 {{- end }}

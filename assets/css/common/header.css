@@ -45,6 +45,11 @@ button#theme-toggle {
     margin: auto 4px;
 }
 
+button#font-toggle {
+    font-size: 1.2em;
+    margin: auto 4px;
+}
+
 body.dark #moon {
     vertical-align: middle;
     display: none;
