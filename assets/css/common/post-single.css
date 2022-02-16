@@ -226,6 +226,7 @@
     border: 2px solid var(--primary);
     overflow-x: auto;
     word-break: break-all;
+    tab-size: 4;
 }
 
 .post-content blockquote, .post-footer blockquote{
